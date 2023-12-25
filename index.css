@@ -12,3 +12,297 @@ font-family: "eb-garamond", serif;
 font-weight: 500;
 font-style: normal;
 */
+body{
+    background-color:#E5DFD8;
+}
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+
+/* FIXED HEADER */
+.navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0; 
+    z-index: 1;
+    position: fixed;
+   margin-left:7vw;
+   margin-top: 3vw;
+   right: 2vw;
+   font-family: "franklin-gothic-condensed", sans-serif;
+font-weight: 400;
+font-style: normal;
+  }
+
+  .navigation a {
+    text-decoration: none;
+    display: block;
+    padding: 1vw;
+  }
+  .logomark {
+    max-width: 100%;
+   z-index: 2; 
+   position: fixed;
+  } 
+
+ @media (min-width: 600px) {
+.navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0; 
+    z-index: 1;
+    position: fixed;
+   margin-left:7vw;
+   margin-top: 0vw;
+   right: 2vw;
+   font-family: "franklin-gothic-condensed", sans-serif;
+font-weight: 400;
+font-style: normal;
+  }
+
+  .navigation a {
+    text-decoration: none;
+    display: block;
+    padding: 1vw;
+  }
+  
+.logomark {
+    max-width: 100%;
+   z-index: 2; 
+   position: fixed;
+  } 
+
+ }
+/*WRITING*/
+.name {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100%;
+}
+.name div   {
+    color: #E5DFD8;
+
+}
+.sav {
+font-family: "eb-garamond", serif;
+font-weight: 800;
+font-style: normal;
+font-size: 60pt;
+}
+.fash {
+font-family: "franklin-gothic-condensed", sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 20pt;
+    }
+
+    @media (min-width: 600px) {
+        .name {
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            top: 62%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            height: 100%;
+        }
+        .name div   {
+            color: #E5DFD8;
+        
+        }
+        .sav {
+        font-family: "eb-garamond", serif;
+        font-weight: 800;
+        font-style: normal;
+        font-size: 150pt;
+        }
+        .fash {
+        font-family: "franklin-gothic-condensed", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 20pt;
+            }
+        }
+
+/*PHOTO BASES*/
+.webpagephoto {
+    display: none;
+}
+@media (min-width: 600px) {
+.webpagephoto {
+    display: block;
+}
+}
+
+@media (min-width: 600px) {
+.phonepage{
+    display: none;
+    }
+}
+
+/*QUOTE FLEXBOX*/
+.quote {
+    color: #2D3947;
+    font-family: "eb-garamond", serif;
+font-weight: 800;
+font-style: normal;
+font-size: 30pt;
+justify-content: center;
+align-items: center;
+text-align: center;
+padding: 10vw;
+padding-left: 4vw;
+padding-right: 4vw;
+
+}
+
+@media (min-width: 600px) {
+.quote {
+    color: #2D3947;
+    font-family: "eb-garamond", serif;
+font-weight: 800;
+font-style: normal;
+font-size: 70pt;
+justify-content: center;
+align-items: center;
+text-align: center;
+padding: 10vw;
+padding-left: 8vw;
+padding-right: 8vw;
+
+}
+}
+
+/*ABOUT ME SECTION */
+.aboutmephoto {
+    position: absolute;
+    margin-left: 3vw;
+}
+
+.aboutmewriting {
+    margin-top: 40vh;
+    margin-left: 10vw;
+    margin-right: 3vw;
+    padding-top: 50vh;
+    padding-bottom: 7vh;
+    background-color:#2D3947;
+}
+h1 {
+    padding-left: 10vw;
+    padding-right: 10vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;  
+    padding-bottom: 2vw;
+    font-family: "eb-garamond", serif;
+    font-weight: 800;
+    font-style: normal; 
+    font-size: 50pt;
+    color: #8E7465;
+}
+
+p {
+    padding-left: 6vw;
+    padding-right: 12vw;
+    font-family: "eb-garamond", serif;
+font-weight: 500;
+font-style: normal;
+color: #8E7465;
+}
+
+
+
+@media (min-width: 600px) {
+.aboutmephoto {
+    position: absolute;
+    margin-left: 0;
+}
+
+.aboutmewriting {
+    padding-bottom: 37vh;
+    margin-top: 0vh;
+    margin-right: 0vh;
+    background-color:#2D3947;
+}
+h1 {
+    padding-left: 50vw;
+    padding-right: 10vw;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;  
+    padding-bottom: 6vw;
+    font-family: "eb-garamond", serif;
+    font-weight: 800;
+    font-style: normal; 
+    font-size: 90pt;
+    line-height: 13vh;
+    color: #8E7465;
+}
+
+p {
+    padding-left: 45vw;
+    padding-right: 9vw;
+    font-family: "eb-garamond", serif;
+font-weight: 500;
+font-style: normal;
+color: #8E7465;
+}
+}
+
+/*LOGO*/
+.submarklogo {
+    padding-top: 30vw;
+    padding-bottom: 5vw;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+@media (min-width: 600px) {
+.submarklogo {
+    padding-top: 20vw;
+    padding-bottom: 5vw;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+}
+
+/*LINK STYLING */
+a:link {
+    color: #E5DFD8;
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: #E5DFD8;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+  
+
