@@ -1,0 +1,178 @@
+body{
+    background-color:#E5DFD8;
+}
+
+
+  /* FIXED HEADER */
+.navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0; 
+    z-index: 1;
+    position: fixed;
+   margin-left:7vw;
+   margin-top: 4vw;
+   right: 2vw;
+   font-family: "franklin-gothic-condensed", sans-serif;
+font-weight: 400;
+font-style: normal;
+color: #2D3947;
+  }
+
+  .navigation a {
+    text-decoration: none;
+    display: block;
+    padding: 1vw;
+  }
+  .logomark {
+    max-width: 100%;
+   z-index: 2; 
+   position: fixed;
+  } 
+
+  .lineheader {
+    position: fixed;
+    top: 9%;
+  }
+
+ @media (min-width: 600px) {
+    .navigation {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-end;
+        list-style: none;
+        margin: 0; 
+        z-index: 1;
+        position: fixed;
+       margin-left:7vw;
+       margin-top: 1vw;
+       right: 2vw;
+       font-family: "franklin-gothic-condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+      }
+    
+      .navigation a {
+        text-decoration: none;
+        display: block;
+        padding: 1vw;
+      }
+      
+    .logomark {
+        max-width: 100%;
+        top: 1vh;
+       z-index: 2; 
+       position: fixed;
+      } 
+    
+      .lineheader {
+        position: fixed;
+        top: 9%;
+      } 
+    
+     }
+
+
+      /* Resume */
+    .Resume {
+        padding-top: 15%;
+    }
+    
+    
+    .name {
+        font-family: "eb-garamond", serif;
+        font-weight: 800;
+        font-style: normal; 
+        font-size: 40pt; 
+        line-height: 20pt; 
+        color: #8E7465;
+    }
+
+    .place {
+        font-family: "eb-garamond", serif;
+        font-weight: 800;
+        font-style: normal;
+        color: #2D3947;
+        margin-bottom: -2vh;
+        
+    }
+
+    .date {
+        font-family: "franklin-gothic-condensed", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        line-height: 40pt; 
+        color: #8E7465;
+        padding-top: -2vh;
+    }
+
+    .list {
+        font-family: "eb-garamond", serif;
+        font-weight: 500;
+        font-style: normal;  
+        color:#2D3947;
+        padding-bottom: 2vh;
+    }
+
+    @media (min-width: 600px) {
+        .Resume {
+            padding-top: 8%;
+        }
+        
+        
+        .name {
+            font-family: "eb-garamond", serif;
+            font-weight: 800;
+            font-style: normal; 
+            font-size: 55pt; 
+            line-height: 20pt; 
+            color: #8E7465;
+        }
+    
+        .place {
+            font-family: "eb-garamond", serif;
+            font-weight: 800;
+            font-style: normal;
+            color: #2D3947;
+            margin-bottom: -4vh;
+            font-size: 20pt;
+        }
+    
+        .date {
+            font-family: "franklin-gothic-condensed", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            line-height: 40pt; 
+            color: #8E7465;
+            font-size: 15pt;
+        }
+    
+        .list {
+            font-family: "eb-garamond", serif;
+            font-weight: 500;
+            font-style: normal;  
+            color:#2D3947;
+            padding-bottom: 2vh;
+            font-size: 15pt;
+        }
+    }
+      /* Education */
+      .Education {
+        padding-top: 6%;
+    }
+      /*LINK STYLING */
+a:link {
+    color: #2D3947;
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: #2D3947;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+  
