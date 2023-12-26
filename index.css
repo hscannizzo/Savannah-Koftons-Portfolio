@@ -165,7 +165,7 @@ font-size: 15pt;
         justify-content: center;
         align-items: center;
         text-align: center;
-        top: 50%;
+        top: 65%;
         left: 50%;
         transform: translate(-50%, -50%);
         height: 100%;
@@ -176,14 +176,14 @@ font-size: 15pt;
         font-family: "eb-garamond", serif;
         font-weight: 800;
         font-style: normal;
-        font-size: 60pt;
+        font-size: 150pt;
         position: absolute;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         text-align: center;
-        top: 40%;
+        top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
         height: 100%;
@@ -194,32 +194,36 @@ font-size: 15pt;
         font-family: "franklin-gothic-condensed", sans-serif;
         font-weight: 400;
         font-style: normal;
-        font-size: 15pt;
+        font-size: 20pt;
         }
         
         .kofton {
             font-family: "eb-garamond", serif;
             font-weight: 800;
             font-style: normal;
-            font-size: 60pt;
+            font-size: 150pt;
             position: absolute;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
             text-align: center;
-            top: 60%;
+            top: 80%;
             left: 50%;
             transform: translate(-50%, -50%);
             height: 100%;
             color: #E5DFD8;
+        }
+
+        .linelight {
+            width: 150%;
         }
         
         .style {
          font-family: "franklin-gothic-condensed", sans-serif;
          font-weight: 400;
         font-style: normal;
-        font-size: 15pt;
+        font-size: 20pt;
         }
     }
 /*PHOTO BASES*/
@@ -281,7 +285,7 @@ padding-right: 8vw;
     margin-top: 40vh;
     margin-left: 10vw;
     margin-right: 3vw;
-    padding-top: 50vh;
+    padding-top: 30vh;
     padding-bottom: 7vh;
     background-color:#2D3947;
 }
