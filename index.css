@@ -87,6 +87,7 @@ font-style: normal;
   .lineheader {
     position: fixed;
     top: 9%;
+    z-index: 2;
   } 
 
  }
@@ -327,27 +328,23 @@ color: #8E7465;
 
 .aboutme {
     display: block;
-    height: 100%;
-}
-
-.rectangle {
-    position: absolute;
-    background-color:#2D3947;
+    overflow: hidden;
+    background-color: #2D3947;
 }
 
 .aboutmephoto2 {
-    position: absolute;
     margin-left: 0;
 }
 
 .aboutmewriting2 {
     margin-top: 0vh;
     margin-right: 0vh;
+    position: absolute;
 }
 h1 {
-    padding-left: 50vw;
-    padding-right: 10vw;
-
+    margin-top: -50%;
+    padding-left: 60vw;
+    padding-right: 5vw;
     justify-content: center;
     align-items: center;
     text-align: center;  
@@ -361,7 +358,7 @@ h1 {
 }
 
 p {
-    padding-left: 45vw;
+    padding-left: 60vw;
     padding-right: 9vw;
     font-family: "eb-garamond", serif;
 font-weight: 500;
@@ -385,6 +382,7 @@ color: #8E7465;
 
 @media (min-width: 600px) {
 .submarklogo {
+    margin-top: 80%;
     padding-top: 20vw;
     padding-bottom: 5vw;
     position: absolute;
