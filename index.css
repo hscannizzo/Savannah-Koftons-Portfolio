@@ -312,19 +312,37 @@ font-style: normal;
 color: #8E7465;
 }
 
-
+.aboutme {
+    display: none;
+}
 
 @media (min-width: 600px) {
 .aboutmephoto {
+    display: none;
+}
+
+.aboutmewriting {
+    display: none;
+}
+
+.aboutme {
+    display: block;
+    height: 100%;
+}
+
+.rectangle {
+    position: absolute;
+    background-color:#2D3947;
+}
+
+.aboutmephoto2 {
     position: absolute;
     margin-left: 0;
 }
 
-.aboutmewriting {
-    padding-bottom: 37vh;
+.aboutmewriting2 {
     margin-top: 0vh;
     margin-right: 0vh;
-    background-color:#2D3947;
 }
 h1 {
     padding-left: 50vw;
