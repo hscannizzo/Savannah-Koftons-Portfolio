@@ -1,5 +1,5 @@
 body {
-    background-color: #E5DFD8;
+    background-color: #2D3947;
 }
 
 .gallery-container {
@@ -19,7 +19,7 @@ body {
   .thumbnails {
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 20px;
     padding-top: 10%;
     justify-content: center;
 align-items: center;
@@ -50,8 +50,8 @@ text-align: center;
   }
   
   .thumbnailsdesktop img {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     cursor: pointer;
   }
 
@@ -60,7 +60,7 @@ text-align: center;
   .scrollbar {
     width: 1px;
     height: 720px;
-    background: #2D3947;
+    background: #F4F4F0;
     display: block;
     margin: 0 0 0 8px;
   }

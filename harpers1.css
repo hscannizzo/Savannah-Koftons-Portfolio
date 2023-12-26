@@ -1,5 +1,5 @@
 body {
-    background-color: #E5DFD8;
+    background-color: #F4F4F0;
 }
 
 .gallery-container {
@@ -28,8 +28,8 @@ text-align: center;
   }
   
   .thumbnails img {
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     cursor: pointer;
   }
 
@@ -50,8 +50,8 @@ text-align: center;
   }
   
   .thumbnailsdesktop img {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     cursor: pointer;
   }
 
@@ -60,7 +60,7 @@ text-align: center;
   .scrollbar {
     width: 1px;
     height: 720px;
-    background: #2D3947;
+    background: #AAB6BC;
     display: block;
     margin: 0 0 0 8px;
   }
@@ -69,7 +69,7 @@ text-align: center;
     width: 1px;
     position: absolute;
     height: 0;
-    background: #8E7465;
+    background: #E5DFD8;
   }
   
   .slides {
