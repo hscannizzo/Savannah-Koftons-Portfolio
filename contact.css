@@ -96,12 +96,6 @@ color: #E5DFD8;
     line-height: 130pt;
 }
 
-.line {
-    position: absolute;
-    top: 11%;
-    left: 40%;
-    transform: translate(-50%, -50%);
-}
 
 @media (min-width: 600px) {
 .name {
@@ -120,12 +114,6 @@ color: #E5DFD8;
     font-style: normal;
     font-size: 60pt;
     line-height: 130pt;
-}    
-.line {
-    position: absolute;
-    top: 1%;
-    left: 45%;
-    transform: translate(-50%, -50%);
 }
 
 }
@@ -180,12 +168,6 @@ color: #E5DFD8;
     font-size: 15pt;
  }
 
- .line {
-    margin-top: 78%;
-    margin-left: 10%;
-    margin-right: 10%;
- }
-
  @media (min-width: 600px) {
  .links1 {
     position: absolute;
@@ -236,11 +218,7 @@ color: #E5DFD8;
     font-size: 15pt;
  }
 
- .line {
-    margin-top: 45%;
-    margin-left: 19%;
-    margin-right: 10%;
- }
+
  }
  /*PHOTO LINKS*/
  .container2 {
