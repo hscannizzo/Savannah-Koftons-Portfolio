@@ -162,6 +162,36 @@ color: #2D3947;
       .Education {
         padding-top: 6%;
     }
+
+  /*LOGO*/
+.submarklogo {
+    padding-top: 30vw;
+    padding-bottom: 5vw;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+@media (min-width: 600px) {
+.submarklogo {
+    padding-top: 10vw;
+    width: 7%;
+    padding-bottom: 1vw;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+}
+
+
       /*LINK STYLING */
 a:link {
     color: #2D3947;
