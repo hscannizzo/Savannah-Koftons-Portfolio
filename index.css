@@ -49,6 +49,11 @@ font-style: normal;
    position: fixed;
   } 
 
+  .lineheader {
+    position: fixed;
+    top: 9%;
+  } 
+
  @media (min-width: 600px) {
 .navigation {
     display: flex;
@@ -59,7 +64,7 @@ font-style: normal;
     z-index: 1;
     position: fixed;
    margin-left:7vw;
-   margin-top: 0vw;
+   margin-top: 1vw;
    right: 2vw;
    font-family: "franklin-gothic-condensed", sans-serif;
 font-weight: 400;
@@ -74,8 +79,14 @@ font-style: normal;
   
 .logomark {
     max-width: 100%;
+    top: 1vh;
    z-index: 2; 
    position: fixed;
+  } 
+
+  .lineheader {
+    position: fixed;
+    top: 9%;
   } 
 
  }
