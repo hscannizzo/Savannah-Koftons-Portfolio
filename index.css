@@ -52,6 +52,7 @@ font-style: normal;
   .lineheader {
     position: fixed;
     top: 9%;
+    z-index: 2;
   } 
 
  @media (min-width: 600px) {
@@ -369,7 +370,7 @@ color: #8E7465;
 
 /*LOGO*/
 .submarklogo {
-    padding-top: 30vw;
+    padding-top: 50vw;
     padding-bottom: 5vw;
     position: absolute;
     justify-content: center;
