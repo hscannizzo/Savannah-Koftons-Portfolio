@@ -383,9 +383,8 @@ color: #8E7465;
 
 @media (min-width: 600px) {
 .submarklogo {
-    margin-top: 80%;
-    padding-top: 20vw;
-    padding-bottom: 5vw;
+    padding-top: 10vw;
+    padding-bottom: 1vw;
     position: absolute;
     justify-content: center;
     align-items: center;
