@@ -34,7 +34,7 @@ color: #2D3947;
 
   .lineheader {
     position: fixed;
-    top: 9%;
+    top: 10%;
   }
 
  @media (min-width: 600px) {
@@ -47,7 +47,7 @@ color: #2D3947;
         z-index: 1;
         position: fixed;
        margin-left:7vw;
-       margin-top: 1vw;
+       margin-top: .5vw;
        right: 2vw;
        font-family: "franklin-gothic-condensed", sans-serif;
     font-weight: 400;
