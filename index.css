@@ -370,7 +370,7 @@ color: #8E7465;
 }
 
 /*LOGO*/
-.submarklogo {
+.Credit {
     padding-top: 50vw;
     padding-bottom: 5vw;
     position: absolute;
@@ -379,11 +379,14 @@ color: #8E7465;
     text-align: center;
     left: 50%;
     transform: translate(-50%, -50%);
-
+    font-family: "eb-garamond", serif;
+    font-weight: 800;
+    font-style: normal; 
+    color:#2D3947;
 }
 
 @media (min-width: 600px) {
-.submarklogo {
+.Credit {
     padding-top: 10vw;
     padding-bottom: 1vw;
     position: absolute;
@@ -392,9 +395,13 @@ color: #8E7465;
     text-align: center;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-family: "eb-garamond", serif;
+    font-weight: 800;
+    font-style: normal; 
+    color: #2D3947;
+}
+}
 
-}
-}
 
 /*LINK STYLING */
 a:link {
