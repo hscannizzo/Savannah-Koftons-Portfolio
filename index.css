@@ -13,7 +13,7 @@ font-weight: 500;
 font-style: normal;
 */
 body{
-    background-color:#E5DFD8;
+    background-color:#F8F6F0;
 }
 * {
     margin: 0;
@@ -105,7 +105,7 @@ top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
 height: 100%;
-color: #E5DFD8;
+color: #F8F6F0;
 }
 
 .sav {
@@ -123,7 +123,7 @@ top: 40%;
 left: 50%;
 transform: translate(-50%, -50%);
 height: 100%;
-color: #E5DFD8;
+color: #F8F6F0;
 }
 
 .fash {
@@ -148,7 +148,7 @@ font-size: 15pt;
     left: 50%;
     transform: translate(-50%, -50%);
     height: 100%;
-    color: #E5DFD8;
+    color: #F8F6F0;
 }
 
 .style {
@@ -171,7 +171,7 @@ font-size: 15pt;
         left: 50%;
         transform: translate(-50%, -50%);
         height: 100%;
-        color: #E5DFD8;
+        color: #F8F6F0;
         }
         
         .sav {
@@ -189,7 +189,7 @@ font-size: 15pt;
         left: 50%;
         transform: translate(-50%, -50%);
         height: 100%;
-        color: #E5DFD8;
+        color: #F8F6F0;
         }
         
         .fash {
@@ -214,7 +214,7 @@ font-size: 15pt;
             left: 50%;
             transform: translate(-50%, -50%);
             height: 100%;
-            color: #E5DFD8;
+            color: #F8F6F0;
         }
 
         .linelight {
@@ -229,51 +229,31 @@ font-size: 15pt;
         }
     }
 /*PHOTO BASES*/
-.webpagephoto {
-    display: none;
-}
+.rectangle {
+    height: 90vh;
+    width: 100%;
+    background-color: #FF69B4;
+  }
 @media (min-width: 600px) {
-.webpagephoto {
-    display: block;
+.rectangle {
+    height: 120vh;
+    width: 100%;
+    background-color: #FF69B4;
+  }
 }
-}
-
-@media (min-width: 600px) {
-.phonepage{
-    display: none;
-    }
-}
-
 /*QUOTE FLEXBOX*/
-.quote {
-    color: #2D3947;
-    font-family: "eb-garamond", serif;
-font-weight: 800;
-font-style: normal;
-font-size: 30pt;
-justify-content: center;
-align-items: center;
-text-align: center;
-padding: 10vw;
-padding-left: 4vw;
-padding-right: 4vw;
+.smallphotos {
+    height: 60vh;
+    width: 100%;
+    background-color: #F8F6F0;
 
 }
 
 @media (min-width: 600px) {
-.quote {
-    color: #2D3947;
-    font-family: "eb-garamond", serif;
-font-weight: 800;
-font-style: normal;
-font-size: 70pt;
-justify-content: center;
-align-items: center;
-text-align: center;
-padding: 8vw;
-padding-left: 5vw;
-padding-right: 5vw;
-
+.smallphotos {
+    height: 70vh;
+    width: 100%;
+    background-color: #F8F6F0;
 }
 }
 
@@ -405,16 +385,16 @@ color: #8E7465;
 
 /*LINK STYLING */
 a:link {
-    color: #E5DFD8;
+    color: #F8F6F0;
     text-decoration: none;
   }
 
   a:visited {
-    color: #E5DFD8;
+    color: #F8F6F0;
   }
 
   a:hover {
-    text-decoration: underline;
+   color: #6B1F2D;
   }
   
 
