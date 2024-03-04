@@ -123,14 +123,14 @@ color: #2D3947;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 20px;
-    margin-top: 100%; /* Adjust the margin-top based on your preference */
+    margin-top: 5%; /* Adjust the margin-top based on your preference */
 }
 
 .styling-section {
     text-align: left;
     margin-left: 2%;
     margin-top: 0; /* Adjust the margin-top based on your preference */
-    position: absolute;
+  
 }
 
 h1 {
@@ -206,6 +206,9 @@ select option {
 #sortByPhotographer {
     width: 200px;
 }
+#sortByDate {
+  width: 200px;
+}
 
 label {
   font-family: "franklin-gothic-condensed", sans-serif; /* Set font-family */
@@ -233,21 +236,21 @@ label {
     .image-container img {
       width: 300px; /* Adjust the width to your preference */
       height: auto; /* Maintain aspect ratio */
-      margin: 10px; /* Add margin for spacing */
+      margin: 10%; /* Add margin for spacing */
   }
   
   #gallery {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 20px;
-    margin-top: 30%; /* Adjust the margin-top based on your preference */
+    margin-top: 5%; /* Adjust the margin-top based on your preference */
 }
 
 .styling-section {
     text-align: left;
     margin-left: 2%;
     margin-top: 0; /* Adjust the margin-top based on your preference */
-    position: absolute;
+    
 }
 
 h1 {
@@ -256,7 +259,7 @@ h1 {
   font-style: normal;
   font-size: 80pt;
   color: #F8F6F0;
-    margin-top: -30%; /* Adjust the font size based on your preference */
+    margin-top: 10%; /* Adjust the font size based on your preference */
 }
 
 .sort-dropdown {
@@ -322,6 +325,9 @@ select option {
 
 #sortByPhotographer {
     width: 200px;
+}
+#sortByDate {
+  width: 200px;
 }
 
 label {
