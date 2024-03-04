@@ -31,7 +31,7 @@ body{
     z-index: 1;
     position: fixed;
    margin-left:7vw;
-   margin-top: 3vw;
+   margin-top: 3vh;
    right: 2vw;
    font-family: "franklin-gothic-condensed", sans-serif;
 font-weight: 400;
@@ -241,7 +241,7 @@ font-size: 15pt;
     background-color: #FF69B4;
   }
 }
-/*QUOTE FLEXBOX*/
+/*LINKS FLEXBOX*/
 .smallphotos {
     height: 60vh;
     width: 100%;
@@ -269,7 +269,7 @@ font-size: 15pt;
     margin-right: 3vw;
     padding-top: 30vh;
     padding-bottom: 7vh;
-    background-color:#2D3947;
+    background-color:#6B1F2D;
 }
 h1 {
     padding-left: 10vw;
@@ -282,7 +282,7 @@ h1 {
     font-weight: 800;
     font-style: normal; 
     font-size: 50pt;
-    color: #8E7465;
+    color: #FA9CBC;
 }
 
 p {
@@ -291,7 +291,7 @@ p {
     font-family: "eb-garamond", serif;
 font-weight: 500;
 font-style: normal;
-color: #8E7465;
+color: #FA9CBC;
 }
 
 .aboutme {
@@ -310,7 +310,7 @@ color: #8E7465;
 .aboutme {
     display: block;
     overflow: hidden;
-    background-color: #2D3947;
+    background-color:  #6B1F2D;
 }
 
 .aboutmephoto2 {
@@ -335,7 +335,7 @@ h1 {
     font-style: normal; 
     font-size: 90pt;
     line-height: 13vh;
-    color: #8E7465;
+    color: #FA9CBC;
 }
 
 p {
@@ -345,7 +345,7 @@ p {
 font-weight: 500;
 font-size: 15pt;
 font-style: normal;
-color: #8E7465;
+color: #FA9CBC;
 }
 }
 
@@ -362,7 +362,7 @@ color: #8E7465;
     font-family: "eb-garamond", serif;
     font-weight: 800;
     font-style: normal; 
-    color:#2D3947;
+    color:#FF69B4;
 }
 
 @media (min-width: 600px) {
@@ -378,7 +378,7 @@ color: #8E7465;
     font-family: "eb-garamond", serif;
     font-weight: 800;
     font-style: normal; 
-    color: #2D3947;
+    color: #FF69B4;
 }
 }
 

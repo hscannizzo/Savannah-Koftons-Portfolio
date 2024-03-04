@@ -1,5 +1,5 @@
 body{
-    background-color:#E5DFD8;
+    background-color:#F8F6F0;
 }
 
 
@@ -13,12 +13,12 @@ body{
     z-index: 1;
     position: fixed;
    margin-left:7vw;
-   margin-top: 4vw;
+   margin-top: 4vh;
    right: 2vw;
    font-family: "franklin-gothic-condensed", sans-serif;
 font-weight: 400;
 font-style: normal;
-color: #2D3947;
+color: #6B1F2D;
   }
 
   .navigation a {
@@ -52,6 +52,7 @@ color: #2D3947;
        font-family: "franklin-gothic-condensed", sans-serif;
     font-weight: 400;
     font-style: normal;
+    
       }
     
       .navigation a {
@@ -87,14 +88,14 @@ color: #2D3947;
         font-style: normal; 
         font-size: 30pt; 
         line-height: 20pt; 
-        color: #8E7465;
+        color: #6B1F2D;
     }
 
     .place {
         font-family: "eb-garamond", serif;
         font-weight: 800;
         font-style: normal;
-        color: #2D3947;
+        color: #FF69B4;
         margin-bottom: -2vh;
         
     }
@@ -112,7 +113,7 @@ color: #2D3947;
         font-family: "eb-garamond", serif;
         font-weight: 500;
         font-style: normal;  
-        color:#2D3947;
+        color:#FF69B4;
         padding-bottom: 2vh;
     }
 
@@ -128,14 +129,14 @@ color: #2D3947;
             font-style: normal; 
             font-size: 55pt; 
             line-height: 20pt; 
-            color: #8E7465;
+            color: #6B1F2D;
         }
     
         .place {
             font-family: "eb-garamond", serif;
             font-weight: 800;
             font-style: normal;
-            color: #2D3947;
+            color: #FF69B4;
             margin-bottom: -4vh;
             font-size: 20pt;
         }
@@ -145,7 +146,7 @@ color: #2D3947;
             font-weight: 400;
             font-style: normal;
             line-height: 40pt; 
-            color: #8E7465;
+            color: black;
             font-size: 15pt;
         }
     
@@ -153,7 +154,7 @@ color: #2D3947;
             font-family: "eb-garamond", serif;
             font-weight: 500;
             font-style: normal;  
-            color:#2D3947;
+            color:#FF69B4;
             padding-bottom: 2vh;
             font-size: 15pt;
         }
@@ -193,16 +194,16 @@ color: #2D3947;
 
 
       /*LINK STYLING */
-a:link {
-    color: #2D3947;
-    text-decoration: none;
-  }
-
-  a:visited {
-    color: #2D3947;
-  }
-
-  a:hover {
-    text-decoration: underline;
-  }
+      a:link {
+        color: #FF69B4;
+        text-decoration: none;
+      }
+    
+      a:visited {
+        color: #FF69B4;
+      }
+    
+      a:hover {
+       color: #6B1F2D;
+      }
   

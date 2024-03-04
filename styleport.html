@@ -8,31 +8,69 @@
     <link rel="stylesheet" href="styleport.css" type="text/css"/>
     <link rel="icon" href="PHOTOS/logomark.png">
 </head>
- <body>
-<!--FIXED HEADER-->
+<body>
+       <!-- FIXED HEADER -->
+       <img class="logomark" src="PHOTOS/logomarkdark2.png" height="60vh" loading="lazy" alt="logomarklight">
+    
+       <div class="navigation-container">
+           <ul class="navigation">
+               <li><a href="index.html">HOME</a></li>
+               <li><a href="resume.html">RESUME</a></li>
+               <li><a href="#">STYLING</a></li>
+               <li><a href="modelport.html">MODELING</a></li>
+               <li><a href="contact.html">CONTACT</a></li>
+           </ul>
+       </div>
+   
+       <img class="lineheader" src="PHOTOS/linedark2.png" width="100%" height="2vh" loading="lazy" alt="linelight">
+   
+       <!-- NEW STYLING SECTION -->
+       <div class="styling-section">
+           <h1>Styling</h1>
 
-<img class="logomark" src="PHOTOS/logomark.png" height="60vh" loading="lazy" alt="logomarklight">
-<ul class="navigation">
-    <li><a href="index.html">HOME</a></li>
-    <li><a href="resume.html">RESUME</a></li>
-    <li><a href="#">STYLING</a></li>
-    <li><a href="modelport.html">MODELING</a></li>
-    <li><a href="contact.html">CONTACT</a></li>
-</ul>
-<img class="lineheader" src="PHOTOS/linedark.png" width="100%" height="2vh" loading="lazy" alt="linelight">
+        <!-- Sort by dropdown menus -->
+        <div class="sort-dropdown">
+            <label for="sortByPublication">Sort by Publication:</label>
+            <select id="sortByPublication" class="sort-dropdown">
+                <option value="all">All Publications</option>
+                <option value="Harper's Bazaar Vietnam">Harper's Bazaar Vietnam</option>
+                <option value="Mirror Mirror">Mirror Mirror</option>
+                <!-- Add more options based on your data -->
+            </select>
 
-<!--LINKS-->
-<div class="link10"><a target=”_blank” href="dappy.html"><img src="PHOTOS/front/styling10.png" width="80%"></a></div>
-<div class="link9"><a target=”_blank” href="weekly.html"><img src="PHOTOS/front/styling9.png" width="80%"></a></div>
-<div class="link8"><a target=”_blank” href="malvie.html"><img src="PHOTOS/front/styling8.png" width="80%"></a></div>
-<div class="link7"><a target=”_blank” href="harpers2.html"><img src="PHOTOS/front/styling7.png" width="80%"></a></div>
-<div class="link6"><a target=”_blank” href="harpers1.html"><img src="PHOTOS/front/styling6.png" width="80%"></a></div>
-<div class="link5"><a target=”_blank” href="genzo.html"><img src="PHOTOS/front/styling5.png" width="80%"></a></div>
-<div class="link4"><a target=”_blank” href="esti.html"><img src="PHOTOS/front/styling4.png" width="80%"></a></div>
-<div class="link3"><a target=”_blank” href="ellas.html"><img src="PHOTOS/front/styling3.png" width="80%"></a></div>
-<div class="link2"><a target=”_blank” href="bloom.html"><img src="PHOTOS/front/styling2.png" width="80%"></a></div>
-<div class="link1"><a target=”_blank” href="6xf.html"><img src="PHOTOS/front/styling1.png" width="80%" ></a></div>
-<!--LOGO-->
-<img class="submarklogo" src="PHOTOS/submarklogodark.png" height="50vh" loading="lazy" alt="submark logo">
+            <label for="sortByModel">Sort by Model:</label>
+            <select id="sortByModel" class="sort-dropdown">
+                <option value="all">All Models</option>
+                <!-- Add more options based on your data -->
+            </select>
+
+            <label for="sortByPhotographer">Sort by Photographer:</label>
+            <select id="sortByPhotographer" class="sort-dropdown">
+                <option value="all">All Photographers</option>
+                <!-- Add more options based on your data -->
+            </select>
+
+            <label for="sortByDate">Sort by Date:</label>
+            <select id="sortByDate" class="sort-dropdown">
+                <option value="all">All Dates</option>
+                <!-- Add more options based on your data -->
+            </select>
+        </div>
+    </div>
+
+    <!-- GALLERY -->
+    <div id="gallery">
+        <!-- Images will be dynamically added here -->
+    </div>
+   
+    <div id="modal-container">
+        <div id="modal-content"></div>
+    </div>
+
+    <!-- LOGO -->
+    <img class="submarklogo" src="PHOTOS/submarkdark2.png" height="50vh" loading="lazy" alt="submark logo">
+
+    <!-- Include your script tag here with the defer attribute -->
+    <script defer src="styleport.js"></script>
 </body>
 </html>

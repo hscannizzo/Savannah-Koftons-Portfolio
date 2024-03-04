@@ -1,5 +1,5 @@
 body{
-    background-color:#E5DFD8;
+    background-color:#FA9CBC;
 }
 * {
     margin: 0;
@@ -77,77 +77,8 @@ color: #2D3947;
     
      }
 
-    /*LINKS */
-    .link1 {
-padding-top: 20%;
-padding-bottom: 10%;
-
-    }
-    .link2 {
-        text-align: right;  
-        padding-bottom: 10%;   
-    }
-    .link3 {
-     right: 0;  
-     padding-bottom: 10%;
-    
-    }
-    .link4 {
-        text-align: right;  
-        padding-bottom: 10%;   
-    }
-    .link5 {
-        padding-bottom: 10%;  
-    }
-    .link6 {
-        text-align: right; 
-        padding-bottom: 10%;    
-    }
-    .link7 {
-        padding-bottom: 10%;     
-    }
-    .link8 {
-        text-align: right; 
-        padding-bottom: 10%;   
-    }
-    .link9 {
-        padding-bottom: 10%;   
-    }
-    @media (min-width: 600px) {
-    .link1 {
-        padding-top: 10%;
-        padding-bottom: 10%;  
-            }
-            .link2 {
-             text-align: right; 
-             padding-bottom: 10%;  
-            }
-            .link3 {
-                padding-bottom: 10%;       
-            }
-            .link4 {
-                text-align: right;
-                padding-bottom: 10%;      
-            }
-            .link5 {
-                padding-bottom: 10%;      
-            }
-            .link6 {
-                text-align: right; 
-                padding-bottom: 10%;         
-            }
-            .link7 {
-                padding-bottom: 10%;      
-            }
-            .link8 {
-                text-align: right;  
-                padding-bottom: 10%;       
-            }
-            .link9 {
-                padding-bottom: 10%;      
-            }
-        }
-    /*LOGO */
+   
+/*LOGO */
  .submarklogo {
 left: 43%;
 position: absolute;
@@ -175,15 +106,15 @@ display: none;
  }
 
  /*LINK STYLING */
-a:link {
-    color: #2D3947;
+ a:link {
+    color: #6B1F2D;
     text-decoration: none;
   }
 
   a:visited {
-    color: #2D3947;
+    color: #6B1F2D;
   }
 
   a:hover {
-    text-decoration: underline;
+   color: #F8F6F0;
   }
