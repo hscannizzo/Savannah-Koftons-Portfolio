@@ -1,5 +1,5 @@
 body{
-    background-color:#FA9CBC;
+    background-color:#FF69B4;
 }
 * {
     margin: 0;
@@ -103,6 +103,20 @@ display: none;
     transform: translate(-50%, -50%);
     display: block;
      }
+ }
+
+ .progress {
+  margin-top: 50%;
+  overflow:clip;
+  width: 100%;
+ }
+
+ @media (min-width: 600px) {
+  .progress {
+    margin-top: 8%;
+    overflow:clip;
+    width: 100%;
+   }
  }
 
  /*LINK STYLING */
