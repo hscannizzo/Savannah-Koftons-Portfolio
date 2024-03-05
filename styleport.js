@@ -32,6 +32,15 @@ document.addEventListener('DOMContentLoaded', function () {
         initializeDropdown('sortByModel', uniqueModels);
         initializeDropdown('sortByPhotographer', uniquePhotographers);
         initializeDropdown('sortByDate', uniqueDates);
+
+        // Extract the publication parameter from the URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const publicationParam = urlParams.get('publication');
+
+        // Set the publication dropdown to the specified value
+        if (publicationParam) {
+            document.getElementById('sortByPublication').value = publicationParam;
+        }
     }
 
     function initializeDropdown(dropdownId, options) {
@@ -53,16 +62,19 @@ document.addEventListener('DOMContentLoaded', function () {
             option.textContent = optionValue;
             dropdown.appendChild(option);
         });
+
+        // Add event listener for dropdown changes
+        dropdown.addEventListener('change', updateGallery);
     }
 
     function updateGallery() {
+        // Filter and update gallery based on dropdown selections
         const selectedPublication = document.getElementById('sortByPublication').value;
         const selectedModel = document.getElementById('sortByModel').value;
         const selectedPhotographer = document.getElementById('sortByPhotographer').value;
         const selectedDate = document.getElementById('sortByDate').value;
 
-        // Filter the data based on the selected options
-        const filteredData = jsonData.filter(photo => 
+        const filteredData = jsonData.filter(photo =>
             (selectedPublication === 'all' || photo.Publication === selectedPublication) &&
             (selectedModel === 'all' || photo.Model === selectedModel) &&
             (selectedPhotographer === 'all' || photo.Photographer === selectedPhotographer) &&
@@ -75,6 +87,7 @@ document.addEventListener('DOMContentLoaded', function () {
         // Sort data by ID (default)
         filteredData.sort((a, b) => a.ID - b.ID);
 
+        // Populate the gallery with filtered data
         filteredData.forEach(photo => {
             const imageContainer = document.createElement('div');
             imageContainer.classList.add('image-container');
@@ -114,60 +127,60 @@ document.addEventListener('DOMContentLoaded', function () {
         modalContent.appendChild(enlargedImage);
         modalContent.appendChild(additionalInfo);
 
-        // Display the modal
-        modalContainer.style.display = 'flex';
+          // Display the modal
+    modalContainer.style.display = 'flex';
+}
+
+// Close modal function
+function closeModal() {
+    modalContainer.style.display = 'none';
+}
+
+// Close the modal when clicking outside the modal content
+modalContainer.addEventListener('click', function (event) {
+    if (event.target === modalContainer) {
+        closeModal();
     }
+});
 
-    // Close the modal when clicking outside the modal content
-    modalContainer.addEventListener('click', function (event) {
-        if (event.target === modalContainer) {
-            closeModal();
-        }
-    });
+// Add event listeners for dropdown changes
+const sortByPublicationDropdown = document.getElementById('sortByPublication');
+sortByPublicationDropdown.addEventListener('change', function () {
+    // Reset other dropdowns to default when changing Publication
+    document.getElementById('sortByModel').value = 'all';
+    document.getElementById('sortByPhotographer').value = 'all';
+    document.getElementById('sortByDate').value = 'all';
 
-    // Add event listeners for dropdown changes
-    const sortByPublicationDropdown = document.getElementById('sortByPublication');
-    sortByPublicationDropdown.addEventListener('change', function() {
-        // Reset other dropdowns to default when changing Publication
-        document.getElementById('sortByModel').value = 'all';
-        document.getElementById('sortByPhotographer').value = 'all';
-        document.getElementById('sortByDate').value = 'all';
+    updateGallery();
+});
 
-        updateGallery();
-    });
+const sortByModelDropdown = document.getElementById('sortByModel');
+sortByModelDropdown.addEventListener('change', function () {
+    // Reset other dropdowns to default when changing Model
+    document.getElementById('sortByPublication').value = 'all';
+    document.getElementById('sortByPhotographer').value = 'all';
+    document.getElementById('sortByDate').value = 'all';
 
-    const sortByModelDropdown = document.getElementById('sortByModel');
-    sortByModelDropdown.addEventListener('change', function() {
-        // Reset other dropdowns to default when changing Model
-        document.getElementById('sortByPublication').value = 'all';
-        document.getElementById('sortByPhotographer').value = 'all';
-        document.getElementById('sortByDate').value = 'all';
+    updateGallery();
+});
 
-        updateGallery();
-    });
+const sortByPhotographerDropdown = document.getElementById('sortByPhotographer');
+sortByPhotographerDropdown.addEventListener('change', function () {
+    // Reset other dropdowns to default when changing Photographer
+    document.getElementById('sortByPublication').value = 'all';
+    document.getElementById('sortByModel').value = 'all';
+    document.getElementById('sortByDate').value = 'all';
 
-    const sortByPhotographerDropdown = document.getElementById('sortByPhotographer');
-    sortByPhotographerDropdown.addEventListener('change', function() {
-        // Reset other dropdowns to default when changing Photographer
-        document.getElementById('sortByPublication').value = 'all';
-        document.getElementById('sortByModel').value = 'all';
-        document.getElementById('sortByDate').value = 'all';
+    updateGallery();
+});
 
-        updateGallery();
-    });
+const sortByDateDropdown = document.getElementById('sortByDate');
+sortByDateDropdown.addEventListener('change', function () {
+    // Reset other dropdowns to default when changing Date
+    document.getElementById('sortByPublication').value = 'all';
+    document.getElementById('sortByModel').value = 'all';
+    document.getElementById('sortByPhotographer').value = 'all';
 
-    const sortByDateDropdown = document.getElementById('sortByDate');
-    sortByDateDropdown.addEventListener('change', function() {
-        // Reset other dropdowns to default when changing Date
-        document.getElementById('sortByPublication').value = 'all';
-        document.getElementById('sortByModel').value = 'all';
-        document.getElementById('sortByPhotographer').value = 'all';
-
-        updateGallery();
-    });
-
-    // Close modal function
-    function closeModal() {
-        modalContainer.style.display = 'none';
-    }
+    updateGallery();
+});
 });

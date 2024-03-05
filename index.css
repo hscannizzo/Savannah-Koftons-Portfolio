@@ -257,6 +257,49 @@ font-size: 15pt;
 }
 }
 
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.gallery-link {
+    text-align: center;
+}
+
+.gallery-link a {
+    display: block; /* Make the entire anchor a block element */
+}
+
+.gallery-link img {
+    width: 100%; /* Take up the full width of its container */
+    max-height: 200px; /* Set a maximum width to avoid stretching */
+    margin-bottom: 20%; /* Reduce the margin between image and text */
+    margin-top: 20%;
+}
+
+@media (min-width: 600px) {
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.gallery-link {
+    text-align: center;
+}
+
+.gallery-link a {
+    display: block; /* Make the entire anchor a block element */
+}
+
+.gallery-link img {
+    width: 100%; /* Take up the full width of its container */
+    max-height: 600px; /* Set a maximum width to avoid stretching */
+    margin-bottom: 20%; /* Reduce the margin between image and text */
+    margin-top: 20%;
+}
+}
 /*ABOUT ME SECTION */
 .aboutmephoto {
     position: absolute;
